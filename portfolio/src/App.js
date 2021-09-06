@@ -24,7 +24,7 @@ import NavbarComponent from './components/Navbar'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/proPortfolio">
       <Router>
         <>
           <NavbarComponent />
