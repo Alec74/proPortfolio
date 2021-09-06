@@ -1,22 +1,73 @@
 import React from 'react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import Accordion from 'react-bootstrap/Accordion'
+import Fade from 'react-bootstrap/Fade'
+
+
 export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+    return (
+        <div>
+            <Container>
+                <Row>
+                    <Col xs={12} lg={12}>
+                        <h1>Contact Me</h1>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Accordion>
+                            <Accordion.Item eventKey="0">
+                                <Accordion.Header>Email</Accordion.Header>
+                                <Accordion.Body>
+                                    <address>
+                                        Send an email to me by clicking <button type="button" class="btn btn-outline-info"><a href="mailto:alecmcglone@gmail.com">here</a></button><br />
+                                    </address>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1">
+                                <Accordion.Header>Github</Accordion.Header>
+                                <Accordion.Body>
+                                    <button type="button" class="btn btn-outline-info">
+                                        <a class="nav-link text-dark"
+                                            href="https://github.com/Alec74">
+                                            Github Profile
+                                        </a>
+                                    </button>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                                <Accordion.Header>LinkedIn Profile</Accordion.Header>
+                                <Accordion.Body>
+                                    <button type="button" class="btn btn-outline-info">
+                                        <a class="nav-link text-dark"
+                                            href="https://www.linkedin.com/in/alec-mcglone-900904206/">
+                                            LinkedIn Profile
+                                        </a>
+                                    </button>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="3">
+                                <Accordion.Header>Resume</Accordion.Header>
+                                <Accordion.Body>
+                                    <button type="button" class="btn btn-outline-info">
+                                        <a class="nav-link text-dark" href="info/resume.pdf">Resume</a>
+                                    </button>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="4">
+                                <Accordion.Header>Phone Number</Accordion.Header>
+                                <Accordion.Body>
+                                    <p>203-856-7364</p>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                        </Accordion>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );
 }

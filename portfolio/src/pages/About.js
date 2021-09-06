@@ -21,19 +21,24 @@ export default function About() {
                     <Card className="my-2 mb-2" text='light' bg='info' border="primary">
                         <Card.Img src={portrait} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Header>Header</Card.Header>
+                            <Card.Header>Alec McGlone</Card.Header>
                             <Card.Body>
-                                <Card.Title>Primary Card Title</Card.Title>
-                                <Card.Text>
-                                    I am currently a student of the UConn Coding
-                                    Bootcamp for Full Stack Web Development. My goals are to learn efficient ways to build
-                                    multifaceted user driven applications.
-                                </Card.Text>
+                                <Card.Title>Full Stack Web Developer</Card.Title>
                             </Card.Body>
                         </Card.ImgOverlay>
                     </Card>
                 </Col>
-                <Col xs={12} md={6} lg={6}></Col>
+                <Col xs={12} md={6} lg={6}>
+                    <Card className="mb-2 my-5" text='light' bg='info' border="primary">
+                        <Card.Header>MERN Stack Specialist</Card.Header>
+                        <Card.Body>
+                            <Card.Title></Card.Title>
+                            <Card.Text>
+                                Full-stack web developer eager to build multi-faceted applications.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
             <Row>
                 <Col xs={12} md={4} lg={4}>
