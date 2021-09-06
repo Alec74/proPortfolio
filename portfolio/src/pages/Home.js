@@ -1,40 +1,65 @@
 import React from 'react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import Card from 'react-bootstrap/Card';
+
+import html from '../resources/images/html.jfif';
+import CSS from '../resources/images/CSS.png';
+import JS from '../resources/images/javascript.jfif';
+import express from '../resources/images/express.jfif';
+import mongodb from '../resources/images/mongodb.jfif';
+import react from '../resources/images/react.jfif';
+import node from '../resources/images/node.jfif';
+
 export default function Home() {
-  return (
-    <div>
-      <header>
-        {/* <!-- As a link to sections of the page --> */}
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-tabs font-head">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Full Stack Web Development</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Featured Projects</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#recipes">Cocktail and Drink Recipes</a></li>
-                                <li><a class="dropdown-item" href="#codequiz">Code Quiz</a></li>
-                                <li><a class="dropdown-item" href="#worksched">WorkDay Planner</a></li>
-                                <li><a class="dropdown-item" href="#weather">Weather Dashboard</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#foot">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    </div>
-  );
+    return (
+        <div>
+            <header>
+                <Container>
+                    <Row>
+                        <Col>
+                            <h1>
+                                Full Stack Web Developer : MERN Stack Oriented
+                            </h1>
+                        </Col>
+                    </Row>
+                    <Row className="my-2 mb-2">
+                        <Col xs={12} md={6} lg={6}>
+                            <Card className="mb-2" text='light' bg='info' border="primary" >
+                                <Card.Img src={mongodb} alt="Card image" />
+                                <Card.ImgOverlay>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+                        <Col xs={12} md={6} lg={6}>
+                            <Card className="mb-2" text='light' bg='info' border="primary" >
+                                <Card.Img src={express} alt="Card image" />
+                                <Card.ImgOverlay>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} md={6} lg={6}>
+                        <Card className="mb-2" text='light' bg='info' border="primary" >
+                                <Card.Img src={react} alt="Card image" />
+                                <Card.ImgOverlay>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+                        <Col xs={12} md={6} lg={6}>
+                        <Card className="mb-2" text='light' bg='info' border="primary" >
+                                <Card.Img src={node} alt="Card image" />
+                                <Card.ImgOverlay>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
+            </header>
+        </div>
+    );
 }

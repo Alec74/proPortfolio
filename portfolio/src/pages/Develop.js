@@ -8,6 +8,8 @@ import project6 from '../resources/images/dynamicWeather.png';
 import project7 from '../resources/images/noteTaker.png';
 import project8 from '../resources/images/techBlog.png';
 import project9 from '../resources/images/fitnessApp.png';
+import project10 from '../resources/images/budget.png';
+import project11 from '../resources/images/book.png';
 
 export default function Blog() {
   return (
@@ -144,6 +146,35 @@ export default function Blog() {
                     <a href="https://fitnessforyou.herokuapp.com/" target="_blank" class="btn btn-primary mx-3">Live
                       Webpage</a>
                     <a href="https://github.com/Alec74/fitnessApp" target="_blank" class="btn btn-primary mx-3">Github
+                      Repo</a>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- PWA Budget Tracker --> */}
+              <div class="col-lg-4 col-sm-12 my-5">
+                <div class="card border-info" id="budget">
+                  <img src={project10} class="card-img-top" alt="showcase of budget tracker"></img>
+                  <div class="card-body text-center color-card">
+                    <h5 class="card-title font-head">PWA Budget Tracker</h5>
+                    <h6>Progressive Web Application</h6>
+                    <a href="https://vast-ocean-80593.herokuapp.com/" target="_blank" class="btn btn-primary mx-3">Live
+                      Webpage</a>
+                    <a href="https://github.com/Alec74/BudgetTracker" target="_blank" class="btn btn-primary mx-3">Github
+                      Repo</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Book Search Engine --> */}
+              <div class="col-lg-4 col-sm-12 my-5">
+                <div class="card border-info" id="book">
+                  <img src={project11} class="card-img-top" alt="showcase of Book Search Engine"></img>
+                  <div class="card-body text-center color-card">
+                    <h5 class="card-title font-head">Book Search Engine</h5>
+                    <h6>MERN Stack Application</h6>
+                    <a href="https://serene-inlet-26362.herokuapp.com/" target="_blank" class="btn btn-primary mx-3">Live
+                      Webpage</a>
+                    <a href="https://github.com/Alec74/BookSearchEngine" target="_blank" class="btn btn-primary mx-3">Github
                       Repo</a>
                   </div>
                 </div>

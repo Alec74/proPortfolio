@@ -9,7 +9,7 @@ import About from './pages/About';
 import Develop from './pages/Develop';
 import Contact from './pages/Contact';
 
-import Navbar from './components/Navbar'
+import NavbarComponent from './components/Navbar'
 
 // const httpLink = createHttpLink({
 //   uri: '/graphql',
@@ -27,7 +27,7 @@ function App() {
     // <ApolloProvider client={client}>
       <Router>
         <>
-          <Navbar />
+          <NavbarComponent />
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
