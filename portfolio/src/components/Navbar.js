@@ -9,29 +9,29 @@ export default function NavbarComponent() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="info" variant="light">
             <Container>
-                <Navbar.Brand href="/">Alec McGlone</Navbar.Brand>
+                <Navbar.Brand href="/proPortfolio/">Alec McGlone</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/about">About Me</Nav.Link>
+                        <Nav.Link href="/proPortfolio/about">About Me</Nav.Link>
 
                         <NavDropdown title="Developed" id="nav-dropdown">
-                            <NavDropdown.Item eventKey="4.1" href='/develop#recipes'>Cocktail and Recipe Generator</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.2" href='/develop#fitness'>21st Century Fitness</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.3" href='/develop#fund'>The Tom Fund</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.1" href='/proPortfolio/develop#recipes'>Cocktail and Recipe Generator</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.2" href='/proPortfolio/develop#fitness'>21st Century Fitness</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.3" href='/proPortfolio/develop#fund'>The Tom Fund</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item eventKey="4.4" href='/develop#codequiz'>Code Quiz</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.5" href='/develop#worksched'>Workday Planner</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.6" href='/develop#weather'>Weather Dashboard</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.7" href='/develop#notes'>Note Taker</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.8" href='/develop#blog'>Tech Blog</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.9" href='/develop#fitness2'>Fitness App</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.10" href='/develop#budget'>Budget Tracker</NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.11" href='/develop#book'>Book Search Engine</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.4" href='/proPortfolio/develop#codequiz'>Code Quiz</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.5" href='/proPortfolio/develop#worksched'>Workday Planner</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.6" href='/proPortfolio/develop#weather'>Weather Dashboard</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.7" href='/proPortfolio/develop#notes'>Note Taker</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.8" href='/proPortfolio/develop#blog'>Tech Blog</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.9" href='/proPortfolio/develop#fitness2'>Fitness App</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.10" href='/proPortfolio/develop#budget'>Budget Tracker</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.11" href='/proPortfolio/develop#book'>Book Search Engine</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item eventKey="4.11" href='/develop#backend'>Backend Dev</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="4.11" href='/proPortfolio/develop#backend'>Backend Dev</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/contact">Contact Me</Nav.Link>
+                        <Nav.Link href="/proPortfolio/contact">Contact Me</Nav.Link>
                     </Nav>
                     {/* <Nav>
                         <Nav.Link href="#deets">More deets</Nav.Link>

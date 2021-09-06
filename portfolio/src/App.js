@@ -24,7 +24,7 @@ import NavbarComponent from './components/Navbar'
 
 function App() {
   return (
-      <Router>
+      <Router basename='/proPortfolio'>
         <>
           <NavbarComponent />
           <Switch>
