@@ -29,9 +29,9 @@ function App() {
           <NavbarComponent />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/proPortfolio/about' component={About} />
-            <Route exact path='/proPortfolio/develop' component={Develop} />
-            <Route exact path='/proPortfolio/contact' component={Contact} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/develop' component={Develop} />
+            <Route exact path='/contact' component={Contact} />
             <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
           </Switch>
         </>
