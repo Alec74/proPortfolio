@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, BrowserRouter } from 'react-router-dom';
 // import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 
 import Home from './pages/Home';
@@ -24,7 +24,7 @@ import NavbarComponent from './components/Navbar'
 
 function App() {
   return (
-    // <ApolloProvider client={client}>
+    <BrowserRouter>
       <Router>
         <>
           <NavbarComponent />
@@ -37,7 +37,7 @@ function App() {
           </Switch>
         </>
       </Router>
-    // </ApolloProvider>
+    </BrowserRouter>
   );
 }
 
