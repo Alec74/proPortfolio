@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "cd portfolio && npm start"
+    "start": "cd portfolio && npm start",
+    "install": "cd portfolio && npm i"
   },
   "eslintConfig": {
     "extends": [
