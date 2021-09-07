@@ -45,13 +45,11 @@ export default function About() {
                     <Card className="mb-2" text='light' bg='info' border="primary" >
                         <Card.Img src={backG2} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Header>Header</Card.Header>
+                            <Card.Header></Card.Header>
                             <Card.Body>
-                                <Card.Title>Primary Card Title</Card.Title>
+                                <Card.Title></Card.Title>
                                 <Card.Text>
-                                    I am currently a student of the UConn Coding
-                                    Bootcamp for Full Stack Web Development. My goals are to learn efficient ways to build
-                                    multifaceted user driven applications.
+                                   
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
@@ -61,13 +59,11 @@ export default function About() {
                     <Card className="mb-2" text='light' bg='info' border="primary" >
                         <Card.Img src={backG} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Header>Header</Card.Header>
+                            <Card.Header></Card.Header>
                             <Card.Body>
-                                <Card.Title>Primary Card Title</Card.Title>
+                                <Card.Title></Card.Title>
                                 <Card.Text>
-                                    I am currently a student of the UConn Coding
-                                    Bootcamp for Full Stack Web Development. My goals are to learn efficient ways to build
-                                    multifaceted user driven applications.
+                                    
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
@@ -77,13 +73,11 @@ export default function About() {
                     <Card className="mb-2" text='light' bg='info' border="primary" >
                         <Card.Img src={backG3} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Header>Header</Card.Header>
+                            <Card.Header></Card.Header>
                             <Card.Body>
-                                <Card.Title>Primary Card Title</Card.Title>
+                                <Card.Title></Card.Title>
                                 <Card.Text>
-                                    I am currently a student of the UConn Coding
-                                    Bootcamp for Full Stack Web Development. My goals are to learn efficient ways to build
-                                    multifaceted user driven applications.
+                                    
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
