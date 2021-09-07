@@ -9,13 +9,14 @@ import Develop from './pages/Develop';
 import Contact from './pages/Contact';
 
 import NavbarComponent from './components/Navbar';
+import FooterComponent from './components/Footer';
 
 
 function App() {
   return (
       <Router>
         <>
-          <NavbarComponent />
+          <NavbarComponent/>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
@@ -23,6 +24,7 @@ function App() {
             <Route exact path='/contact' component={Contact} />
             <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
           </Switch>
+          <FooterComponent/>
         </>
       </Router>
   );

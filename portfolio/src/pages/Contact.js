@@ -68,6 +68,7 @@ export default function Contact() {
                     </Col>
                 </Row>
             </Container>
+            <div id="contactSpacing"></div>
         </div>
     );
 }

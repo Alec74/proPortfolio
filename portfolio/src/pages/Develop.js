@@ -212,6 +212,7 @@ export default function Blog() {
           </div>
         </div>
       </main>
+      <div id="devSpacing"></div>
     </div>
   );
 }

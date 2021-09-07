@@ -4,10 +4,10 @@ import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../resources/css/navbar.css';
 
-export default function NavbarComponent() {
+export default function FooterComponent() {
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="info" variant="light">
+        <Navbar fixed="bottom" collapseOnSelect expand="lg" bg="info" variant="light">
             <Container>
                 <Navbar.Brand href="/">Alec McGlone</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

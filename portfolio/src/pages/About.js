@@ -94,6 +94,7 @@ export default function About() {
                     </Card>
                 </Col>
             </Row>
+            <div id="aboutSpacing"></div>
         </Container>
     );
 }

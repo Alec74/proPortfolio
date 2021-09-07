@@ -60,6 +60,7 @@ export default function Home() {
                     </Row>
                 </Container>
             </header>
+            <div id="homeSpacing"></div>
         </div>
     );
 }
