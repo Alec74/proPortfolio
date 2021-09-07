@@ -21,7 +21,7 @@ export default function Home() {
                 <Container>
                     <Row>
                         <Col>
-                            <h1>
+                            <h1 className="text-light">
                                 Full Stack Web Developer : MERN Stack Oriented
                             </h1>
                         </Col>

@@ -14,7 +14,7 @@ export default function Contact() {
             <Container>
                 <Row>
                     <Col xs={12} lg={12}>
-                        <h1>Contact Me</h1>
+                        <h1 className="text-light">Contact Me</h1>
                     </Col>
                 </Row>
                 <Row>
