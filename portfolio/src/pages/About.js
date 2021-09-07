@@ -34,7 +34,7 @@ export default function About() {
                         <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>
-                                Full-stack web developer eager to build multi-faceted applications.
+                                Full Stack Web Developer eager to build multifaceted user driven applications. I am well versed and experienced in using the following technologies: MERN Stack (MongoDB, Express.js, React.js, Node.js), Bootstrap, Material-ui, Apollo Server, and GraphQL. Professionally, I excel as a team player, thinking logically, and innovating new ways to solve problems. My most recent accomplishments would be preparing a new non-profit organization’s online presence by creating a web application. I graduated from the UConn Coding Bootcamp for Full Stack Web Development Certificate Program. In the past I believed showing dedication, hard-work and reliability was all that was needed for success. Now I know it is merely a starting point to pave the pathway for what can come next.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -49,7 +49,7 @@ export default function About() {
                             <Card.Body>
                                 <Card.Title></Card.Title>
                                 <Card.Text>
-                                   
+
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
@@ -63,7 +63,7 @@ export default function About() {
                             <Card.Body>
                                 <Card.Title></Card.Title>
                                 <Card.Text>
-                                    
+
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
@@ -77,7 +77,7 @@ export default function About() {
                             <Card.Body>
                                 <Card.Title></Card.Title>
                                 <Card.Text>
-                                    
+
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
