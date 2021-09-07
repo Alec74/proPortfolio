@@ -22,9 +22,6 @@ export default function About() {
                         <Card.Img src={portrait} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Header>Alec McGlone</Card.Header>
-                            <Card.Body>
-                                <Card.Title>Full Stack Web Developer</Card.Title>
-                            </Card.Body>
                         </Card.ImgOverlay>
                     </Card>
                 </Col>
@@ -39,6 +36,19 @@ export default function About() {
                         </Card.Body>
                     </Card>
                 </Col>
+            </Row>
+            <Row>
+                <Col xs={12} md={12} lg={12}>
+                    <Card className="mb-2 my-5 text-light" text='center' bg='info' border="primary">
+                        <Card.Body>
+                            {/* <Card.Title></Card.Title> */}
+                            <Card.Text>
+                                Adaptable team player and eager to start building applications. Strengths in logical thinking, teamwork, and innovation.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
             </Row>
             <Row>
                 <Col xs={12} md={4} lg={4}>
@@ -85,33 +95,5 @@ export default function About() {
                 </Col>
             </Row>
         </Container>
-
-
-
-
-
-
-        // <div>
-        //   <div class="container py-3" id="aboutMe">
-        //         <div class="row heading">
-        //             <div class="col-4">
-        //                 <div class="card">
-        //                     <img src={portrait} class="card-img-bottom" alt="senior portrait"></img>
-        //                 </div>
-        //             </div>
-        //             <div class="col-8">
-        //                 <div class="text-muted card">
-        //                     <h5 class="card-header font-head change text-light">Alec McGlone</h5>
-        //                     <div class="card-body change">
-        //                         <h5 class="card-title font-head text-light">About Me</h5>
-        //                         <p class="card-text font-text text-light">I am currently a student of the UConn Coding 
-        //                             Bootcamp for Full Stack Web Development. My goals are to learn efficient ways to build 
-        //                             multifaceted user driven applications. </p>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
