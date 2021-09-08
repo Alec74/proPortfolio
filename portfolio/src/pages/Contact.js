@@ -9,6 +9,8 @@ import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion'
 import Fade from 'react-bootstrap/Fade'
 
+import Resume from "../resources/info/Resume.pdf";
+
 
 const handleChange = (event) => {
     event.preventDefault();
@@ -138,7 +140,7 @@ export default function Contact() {
                                 <Accordion.Header>Resume</Accordion.Header>
                                 <Accordion.Body>
                                     <button type="button" class="btn btn-outline-info">
-                                        <a class="nav-link text-dark" href="info/resume.pdf">Resume</a>
+                                        <a class="nav-link text-dark" href={Resume}>Resume</a>
                                     </button>
                                 </Accordion.Body>
                             </Accordion.Item>
