@@ -7,7 +7,7 @@ import '../resources/css/navbar.css';
 export default function FooterComponent() {
 
     return (
-        <Navbar fixed="bottom" collapseOnSelect expand="lg" bg="info" variant="light">
+        <Navbar fixed="bottom" collapseOnSelect expand="lg" id="navColor" variant="light">
             <Container>
                 <Navbar.Brand href="/">Alec McGlone</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

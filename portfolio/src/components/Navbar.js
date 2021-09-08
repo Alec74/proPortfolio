@@ -7,7 +7,7 @@ import '../resources/css/navbar.css';
 export default function NavbarComponent() {
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="info" variant="light">
+        <Navbar collapseOnSelect expand="lg" id="navColor" variant="light">
             <Container>
                 <Navbar.Brand href="/">Alec McGlone</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
